@@ -1,5 +1,10 @@
 require 'bundler/setup'
+require 'cucumber'
+require 'cucumber/rake/task'
 require 'rspec/core/rake_task'
+
+
+task :test => ['test:units', 'test:features']
 
 namespace :run do
 
@@ -18,12 +23,12 @@ end
 namespace :test do
 
   desc 'Run unit tests'
-  RSpec::Core::RakeTask.new(:unit) do |opt|
-    opt.pattern = Dir['spec/unit/**/*_spec.rb'].sort
+  RSpec::Core::RakeTask.new(:units) do |t|
+    t.pattern = Dir['spec/**/*_spec.rb'].sort
   end
 
-  task :acceptance do
-    #TODO: Make this work
+  Cucumber::Rake::Task.new(:features, desc = 'Run feature tests') do |t|
+    t.cucumber_opts = 'features --format pretty'
   end
 
 end
