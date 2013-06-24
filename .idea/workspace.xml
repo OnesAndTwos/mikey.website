@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1372067612827" ignored="false" />
     <file path="/Dummy.txt" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1371986879930" ignored="false" />
-    <file path="/Rakefile" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1372057495547" ignored="false" />
+    <file path="/Rakefile" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1372069803949" ignored="false" />
     <file path="/app.rb" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1372066308714" ignored="false" />
     <file path="/config.ru" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1371828021878" ignored="false" />
     <file path="/main.rb" changelist="3de6cb70-550a-4a91-ac74-09206c1fd025" time="1371829294809" ignored="false" />
@@ -43,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="128" selection-end="128" vertical-scroll-proportion="0.18018018">
+            <state line="3" column="97" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="86" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+            <state line="25" column="25" selection-start="506" selection-end="506" vertical-scroll-proportion="0.564759">
               <folding />
             </state>
           </provider>
@@ -148,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/assets/css/style.css" />
         <option value="$PROJECT_DIR$/spec/unit/routes/test_spec.rb" />
         <option value="$PROJECT_DIR$/spec/unit/routes/main_off.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/spec/unit/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/unit/routes/main_spec.rb" />
         <option value="$PROJECT_DIR$/.rspec" />
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/app.rb" />
         <option value="$PROJECT_DIR$/src/views/layout.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -663,16 +663,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="86" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+        <state line="3" column="97" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="128" selection-end="128" vertical-scroll-proportion="0.18018018">
+        <state line="25" column="25" selection-start="506" selection-end="506" vertical-scroll-proportion="0.564759">
           <folding />
         </state>
       </provider>

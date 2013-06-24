@@ -22,6 +22,8 @@ namespace :test do
     opt.pattern = Dir['spec/unit/**/*_spec.rb'].sort
   end
 
+  task :acceptance do
+    #TODO: Make this work
+  end
+
 end
-
-
